@@ -18,13 +18,14 @@ html {
     --mono: "Oxygen mono", monospace;
     --btn-color: #3b639e;
     --font-color: #12263a;
+    --bodyColor: #fff2b7;
 }
 
 
 /* Breakpoints: 576px 768px 992px 1200px 1400px */
 
 body {
-    background: #fff2b7;
+    background: var(--bodyColor);
     color: var(--font-color);
     font-family: var(--bodyFont);
     line-height: 1.5;
@@ -349,7 +350,7 @@ img {
 
 .description-box {
     background-color: rgb(83, 83, 83);
-    color: rgb(239, 239, 239);
+    color: hsl(0, 0%, 94%);
     padding: 1rem;
     border-radius: 10px;
 }
